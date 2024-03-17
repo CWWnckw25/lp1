@@ -1228,6 +1228,7 @@ header {
 figure {
     overflow: hidden;
     cursor: pointer;
+    width: 100%;
 }
 
 figure img {
@@ -1436,15 +1437,12 @@ figure:hover img {
 
 .question:hover {
     filter: opacity(40%);
-    -webkit-transform: scaleY(1.2);
-    transform: scaleY(1.2);
-    cursor: pointer;
+    transform: scale(1.2);
 }
 
 @media (min-width: 768px) {
     .question {
         background-image: url('/asset//image/footer_pc_01.jpg');
-        width: 50%;
         height: 320px;
         display: flex;
         justify-content: center;
@@ -1507,15 +1505,12 @@ figure:hover img {
 
 .classroom:hover {
     filter: opacity(40%);
-    -webkit-transform: scaleY(1.2);
-    transform: scaleY(1.2);
-    cursor: pointer;
+    transform: scale(1.2);
 }
 
 @media (min-width: 768px) {
     .classroom {
         background-image: url('/asset/image/footer_pc_02.jpg');
-        width: 50%;
         height: 320px;
         display: flex;
         justify-content: center;
