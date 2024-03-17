@@ -2,7 +2,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 400px;
+    scroll-padding-top: 40px;
 }
 
 @media (min-width: 768px) {
@@ -1442,7 +1442,7 @@ figure:hover img {
 
 @media (min-width: 768px) {
     .question {
-        background-image: url('/asset//image/footer_pc_01.jpg');
+        background-image: url('/asset/image/footer_pc_01.jpg');
         height: 320px;
         display: flex;
         justify-content: center;
